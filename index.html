@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top py-3 px-4 bg-white" >
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="#">
+          <i class="fa-solid fa-building"></i>klinik
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase ">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="header">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-white">city klinik</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <button class="btn btn-outline-primary rounded-5">appointment</button>
+            <h3 class="text-primary display-5 fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sint ipsam veritatis quae eaque voluptates provident eius, error temporibus maiores similique ullam alias iusto ipsa, excepturi quis doloremque quisquam officiis.</p>
+            <div class="card  mb-3 d-flex flex-row p-5">
+              <i class="fa-solid fa-phone py-4 px-4 me-3 text-primary rounded-circle rounded-5 bg-white"></i>
+              <div>
+                <p class="text-muted">call us now</p>
+                <p class="text-primary fw-bold ">+0123456789</p>
+              </div>
+            </div>
+            <div class="card  mb-3 d-flex flex-row p-5">
+              <i class="fa-solid fa-envelope py-4 px-4 me-3 text-primary rounded-circle rounded-5 bg-white"></i>
+              <div>
+                <p class="text-muted">mail us now</p>
+                <p class="text-primary fw-bold">info@example.com</p>
+              </div>
+            </div>
+          </div><!--end info-->
+          <div class="col-md-6">
+            <div class="card py-5 px-3">
+                <div class="form" onsubmit="validationform()">
+                  <div class="row mb-2">
+                    <div class="col-md-6"><input type="text" id="name" class="form-control text-muted  me-2" placeholder="your name"></div>
+                    <div class="col-md-6"><input type="email" id="email" placeholder="your email" class="form-control text-muted"></div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-md-6"><input type="tel" id="phone" placeholder="your mobil" class="form-control text-muted"></div>
+                    <div class="col-md-6">
+                      <div class="dropdown ">
+                      <button class="btn btn-white dropdown-toggle form-control bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        choose doctor
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-md-6"><input type="date" class="form-control " id="date"></div>
+                    <div class="col-md-6"><input type="datetime" class="form-control " placeholder="choose date" id="date2"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <textarea  name="" id="" cols="57" rows="11" class="mb-2" id="message"></textarea>
+                      <button   type="submit" class="btn btn-primary w-100 mb-3">Book Appoinet</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div><!--end form -->
+        </div><!--end row-->
+      </div><!--end container-->
+    </section>
+    <footer class="bg-primary pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p >&copy;your site name .All right reserved</p>
+          </div>
+          <div class="col-md-4">
+            <p id="countcontainer"></p>
+          </div>
+          <div class="col-md-4">
+            <p >designed by we students</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button type="button" class="btn btn-primary text-white rounded-circle p-2" id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

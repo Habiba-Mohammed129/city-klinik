@@ -1,0 +1,15 @@
+header{
+    background-image: url(./header-page.jpg);
+    background-position:top center;
+    background-size: cover;
+    height: 70vh;
+}
+.card{
+    background-color: aliceblue;
+}
+#topBtn{
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+    display: none;
+}
