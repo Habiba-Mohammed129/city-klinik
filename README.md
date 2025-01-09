@@ -1,2 +1,2 @@
 # city-klinik
-city klinik with bootstrap
+city klinik with bootstrap&js
